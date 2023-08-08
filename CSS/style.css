@@ -70,3 +70,9 @@ li { color: blueviolet;}
     right: 0px;
 }
 span.inline { display: inline-block; }
+/* Floating images right with text wrapping */
+img.float-right 
+{ 
+    float: right;    
+    margin: 0 0 0 15px;
+}
