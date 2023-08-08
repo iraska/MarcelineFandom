@@ -39,6 +39,7 @@ img
     margin-left: auto;
     margin-right: auto;
 }
+li { color: blueviolet;}
 
 /* colorhunt.co Marceline color palette */
 .color-1 { color: #35155D; }
