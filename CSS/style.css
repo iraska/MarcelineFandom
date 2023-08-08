@@ -2,7 +2,7 @@ body
 {
     font-family: 'Borel', cursive;
     text-transform: capitalize;
-    background-color: aliceblue;
+    background-color: rgb(191, 225, 255);
 }
 h1 
 { 
@@ -23,6 +23,21 @@ h4
 { 
     color: #4477CE; 
     font-size: 22px;
+}
+img
+{
+    width: 500px;
+    /* Frame */
+    --red: rgb(92, 102, 245);
+    --bgColor: rgb(184, 154, 255);
+    display: grid;
+    place-items: center;
+    box-shadow:
+    -50px -50px 0 -40px var(--red),
+    50px 50px 0 -40px var(--red);
+    /* Centered imgs */
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* colorhunt.co Marceline color palette */
